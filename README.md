@@ -39,7 +39,7 @@ Catpoint Security System is a sophisticated security monitoring application I ar
     <module>security-service</module>    # Core business logic & JavaFX UI
     <module>image-service</module>       # AWS integration module
 </modules>
-
+```
 ## 🔧 Business Requirements Implementation
 
 ### Requirement	Implementation	Test Coverage
@@ -55,7 +55,9 @@ Catpoint Security System is a sophisticated security monitoring application I ar
 9. Alarm Deactivation	Graceful shutdown with validation	Test 9
 10. Sensor Reset on Arm	Batch sensor state management	Test 10
 11. Immediate Cat Alarm	Real-time detection with armed-home	Tests 11, 13
-🚀 Getting Started
+    
+## 🚀 Getting Started
+
 Prerequisites
 bash
 Java 17+
@@ -63,6 +65,7 @@ Maven 3.6+
 (Optional) AWS Account for Rekognition
 Build & Run
 bash
+
 # Clone and build
 git clone https://github.com/yourusername/catpoint-security.git
 cd catpoint-security
@@ -123,7 +126,8 @@ Secure Credential Management
 
 Service Abstraction Patterns
 
-📈 Impact & Results
+## 📈 Impact & Results
+
 Enhanced Code Quality: Zero High priority SpotBugs issues
 
 Improved Maintainability: Clear module boundaries with JPMS
@@ -134,7 +138,8 @@ Production Readiness: Executable packaging with all dependencies
 
 Professional Architecture: Industry-standard patterns and practices
 
-📝 Project Insights
+## 📝 Project Insights
+
 This project was particularly challenging due to:
 
 Module System Complexity: Properly configuring opens/requires for testing
@@ -155,35 +160,6 @@ Factory patterns for service instantiation
 
 Comprehensive mocking strategy with behavior verification
 
-🏅 Why This Project Stands Out
-This isn't just another Java project—it's a demonstration of production-ready software development:
 
-Real-world Architecture: Modular design that scales
-
-Enterprise Testing: Comprehensive coverage with professional tools
-
-Cloud Integration: Practical AWS service implementation
-
-Quality Assurance: Static analysis and build automation
-
-Professional Polish: Executable packaging, configuration management
-
-📬 Contact & Links
-Developer: Your Name
-Email: your.email@example.com
-LinkedIn: Your Profile
-Portfolio: Your Website
-
-"The only way to go fast is to go well." – Robert C. Martin (Uncle Bob)
-
-text
-
-This README:
-1. **Showcases your expertise** with technical depth
-2. **Highlights achievements** with metrics
-3. **Demonstrates professional skills** that recruiters look for
-4. **Provides context** about challenges and solutions
-5. **Looks impressive** with badges and formatting
-6. **Tells a story** of professional development
 
 It's ready to paste directly into your GitHub repository!
