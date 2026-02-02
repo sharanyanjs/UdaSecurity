@@ -66,10 +66,6 @@ Maven 3.6+
 Build & Run
 bash
 
-# Clone and build
-git clone https://github.com/yourusername/catpoint-security.git
-cd catpoint-security
-
 # Full build with testing
 mvn clean install
 
